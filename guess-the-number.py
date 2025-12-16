@@ -1,5 +1,6 @@
 from random import randint
-
+from art import logo
+print(logo)
 
 EASY_LEVEL_TURNS=10
 HARD_LEVEL_TURNS=5
@@ -38,5 +39,6 @@ def game():
             return
         elif guess!=answer:
             print("guess again")
+
 
 game()
